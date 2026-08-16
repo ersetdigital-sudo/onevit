@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    { "source": "/work/:slug", "destination": "/pages/work/:slug/index.html" },
+    { "source": "/work/:slug/:path*", "destination": "/pages/work/:slug/:path*" },
+    { "source": "/assets/:path*", "destination": "/assets/:path*" },
+    { "source": "/images/:path*", "destination": "/images/:path*" },
+    { "source": "/fonts/:path*", "destination": "/fonts/:path*" },
+    { "source": "/", "destination": "/pages/index.html" }
+  ],
+  "trailingSlash": false
+}
