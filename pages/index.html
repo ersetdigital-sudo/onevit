@@ -272,7 +272,8 @@ html:not(.js) .imgwrap img{ transform:none; }
 }
 
 @media (prefers-reduced-motion:reduce){
-  .rv,.mask>span,.imgwrap::after,.imgwrap img{ transition:none !important; opacity:1 !important; transform:none !important; }
+  .rv,.mask>span,.imgwrap img{ transition:none !important; opacity:1 !important; transform:none !important; }
+  .imgwrap::after{ transition:none !important; opacity:1 !important; transform:scaleY(0) !important; }
   .marq{ animation:none; }
 }
 
